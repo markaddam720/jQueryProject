@@ -1,0 +1,90 @@
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#allContent {
+    margin: 0 10%;
+}
+
+#product {
+    width: fit-content;
+    
+}
+
+.border {
+    display: flex;
+    justify-content: flex-start;
+    width: 55px;
+    border-bottom: 2px solid #000000;
+}
+
+.contdiv {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: flex-start;
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px 0;
+    height: 34px;
+    box-shadow: 1px 2px 2px rgba(34,34,34,0.6);
+}
+
+#contentContainer p {
+    display: flex;
+    width: 33%;
+}
+.price {
+    margin-left: 10px;
+}
+
+
+.name {
+    text-align: left;
+}
+
+.details {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: #eeeeee;
+    border: 1px solid black;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+}
+
+
+
+  #clickMe:hover {
+    cursor: pointer;
+  }
+
+  .darkModeBody {
+    background-color: #2b2b2b;
+  }
+
+  .darkModeProduct {
+    color: white;
+  }
+
+  .darkModeBorder {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .darkModeDiv {
+    background-color: #424242;
+    color: white;
+    box-shadow: 1px 2px 2px rgba(255, 254, 254, 0.6);
+  }
+
+  .darkModeButton {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid white;
+  }
